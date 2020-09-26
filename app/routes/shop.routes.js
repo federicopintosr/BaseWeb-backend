@@ -9,5 +9,8 @@ module.exports = app => {
   //Retrieve Slides
   router.get("/getSlides", shops.FindSlides);
 
+  //Retrieve Slides
+  router.get("/getMenu", shops.FindMenu);
+
   app.use("/api/shops", router);
 };
