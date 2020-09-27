@@ -9,7 +9,7 @@ module.exports = (sequelize, Sequelize) => {
       description: {
         type: Sequelize.STRING
       },
-      produt_id: {
+      product_id: {
         type: Sequelize.INTEGER
       },
       price: {

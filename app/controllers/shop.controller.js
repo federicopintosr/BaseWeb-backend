@@ -70,9 +70,8 @@ exports.FindArrivals = (req, res) => {
 
   Arrival.findAll({
     where: {name: name, status : 'V', position: { [Op.gt]: position}}, 
-    attributes: ['image'],
-    order: [['position', 'ASC']],
-    limit: 4
+    attributes: ['image','product_id','description','price'],
+    order: [['position', 'ASC']]
     })
     .then(data => {
       res.send(data);
