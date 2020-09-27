@@ -21,5 +21,6 @@ db.sequelize = sequelize;
 db.shops = require("./shop.model.js")(sequelize, Sequelize);
 db.slides = require("./slide.model.js")(sequelize, Sequelize);
 db.menu = require("./menu.model.js")(sequelize, Sequelize);
+db.arrivals = require("./arrival.model.js")(sequelize, Sequelize);
 
 module.exports = db;
