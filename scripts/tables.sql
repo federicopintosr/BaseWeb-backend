@@ -10,7 +10,7 @@ CREATE TABLE slides (
 	CONSTRAINT slides_pkey PRIMARY KEY (id)
 );
 
-CREATE TABLE new_arrivals (
+CREATE TABLE arrivals (
 	id serial NOT NULL,
 	position int null,
 	name varchar(255) NULL,
