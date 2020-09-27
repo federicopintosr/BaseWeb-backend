@@ -10,7 +10,7 @@ insert into arrivals values (1,1,'HOME','VESTIDO AZUL',1,235.56,'../../assets/pa
 insert into arrivals values (2,2,'HOME','ROPA DE TRABAJO',2,456.45,'../../assets/pages/img/products/model2.jpg','V',now(),now());
 insert into arrivals values (3,3,'HOME','CHAQUETA NEGRA',3,457.44,'../../assets/pages/img/products/model3.jpg','V',now(),now());
 insert into arrivals values (4,4,'HOME','SHORT AZUL',4,297.47,'../../assets/pages/img/products/model4.jpg','V',now(),now());
-insert into arrivals values (5,5,'HOME','BLUSA ROSADA',5,786.45,'../../assets/pages/img/products/model5.jpg','V',now(),now());
-insert into arrivals values (6,6,'HOME','BLUSA AMARILLA',6,986.98,'../../assets/pages/img/products/model6.jpg','V',now(),now());
-insert into arrivals values (7,7,'HOME','BLUSA VIOLETA',7,999.99,'../../assets/pages/img/products/model7.jpg','V',now(),now());
-insert into arrivals values (8,8,'HOME','CAMISA BLANCA',8,123.37,'../../assets/pages/img/products/p1.jpg','V',now(),now());
+insert into arrivals values (5,5,'HOME','VESTIDO MULTICOLOR',5,786.45,'../../assets/pages/img/products/model5.jpg','V',now(),now());
+insert into arrivals values (6,6,'HOME','REMERA ROSADA',6,986.98,'../../assets/pages/img/products/model6.jpg','V',now(),now());
+insert into arrivals values (7,7,'HOME','BLUSA AMARILLA',7,999.99,'../../assets/pages/img/products/model7.jpg','V',now(),now());
+insert into arrivals values (8,8,'HOME','REMERA VIOLETA',8,123.37,'../../assets/pages/img/products/p1.jpg','V',now(),now());
