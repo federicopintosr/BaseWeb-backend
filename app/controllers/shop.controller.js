@@ -49,7 +49,7 @@ exports.FindMenu = (req, res) => {
 
   Menu.findAll({
     where: {name: name, status : 'V'}, 
-    attributes: ['description','url','position','father'],
+    attributes: ['id','description','url','position','father','finish'],
     order: [['position', 'ASC']],
     })
     .then(data => {
