@@ -14,3 +14,17 @@ insert into arrivals values (5,5,'HOME','VESTIDO MULTICOLOR',5,786.45,'../../ass
 insert into arrivals values (6,6,'HOME','REMERA ROSADA',6,986.98,'../../assets/pages/img/products/model6.jpg','V',now(),now());
 insert into arrivals values (7,7,'HOME','BLUSA AMARILLA',7,999.99,'../../assets/pages/img/products/model7.jpg','V',now(),now());
 insert into arrivals values (8,8,'HOME','REMERA VIOLETA',8,123.37,'../../assets/pages/img/products/p1.jpg','V',now(),now());
+
+--Para BRAND CAROUSEL
+insert into slides values (5,1,'BRAND','canon','../../assets/pages/img/brands/canon.jpg','V',now(),now());
+insert into slides values (6,2,'BRAND','esprit','../../assets/pages/img/brands/esprit.jpg','V',now(),now());
+insert into slides values (7,3,'BRAND','gap','../../assets/pages/img/brands/gap.jpg','V',now(),now());
+insert into slides values (8,4,'BRAND','next','../../assets/pages/img/brands/next.jpg','V',now(),now());
+insert into slides values (9,5,'BRAND','puma','../../assets/pages/img/brands/puma.jpg','V',now(),now());
+insert into slides values (10,6,'BRAND','zara','../../assets/pages/img/brands/zara.jpg','V',now(),now());
+insert into slides values (11,7,'BRAND','canon','../../assets/pages/img/brands/canon.jpg','V',now(),now());
+insert into slides values (12,8,'BRAND','esprit','../../assets/pages/img/brands/esprit.jpg','V',now(),now());
+insert into slides values (13,9,'BRAND','gap','../../assets/pages/img/brands/gap.jpg','V',now(),now());
+insert into slides values (14,10,'BRAND','next','../../assets/pages/img/brands/next.jpg','V',now(),now());
+insert into slides values (15,11,'BRAND','puma','../../assets/pages/img/brands/puma.jpg','V',now(),now());
+insert into slides values (16,12,'BRAND','nike','../../assets/pages/img/brands/nike.jpg','V',now(),now());
