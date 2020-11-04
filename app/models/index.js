@@ -23,4 +23,11 @@ db.slides = require("./slide.model.js")(sequelize, Sequelize);
 db.menu = require("./menu.model.js")(sequelize, Sequelize);
 db.arrivals = require("./arrival.model.js")(sequelize, Sequelize);
 
+db.colors = require("./color.model.js")(sequelize, Sequelize);
+db.features = require("./feature.model.js")(sequelize, Sequelize);
+db.images = require("./image.model.js")(sequelize, Sequelize);
+db.products = require("./product.model.js")(sequelize, Sequelize);
+db.sizes = require("./size.model.js")(sequelize, Sequelize);
+
+
 module.exports = db;
