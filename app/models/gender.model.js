@@ -1,5 +1,5 @@
 module.exports = (sequelize, Sequelize) => {
-    const Size = sequelize.define("size", {
+    const Gender = sequelize.define("gender", {   
       nombre: {
         type: Sequelize.STRING,
         allowNull: false
@@ -10,5 +10,5 @@ module.exports = (sequelize, Sequelize) => {
       }
     });
   
-    return Size;
+    return Gender;
   };

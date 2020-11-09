@@ -24,7 +24,7 @@ module.exports = (sequelize, Sequelize) => {
         type: Sequelize.STRING,
         allowNull: true
       },
-      statusdescripcion_larga: {
+      descripcion_larga: {
         type: Sequelize.STRING,
         allowNull: true
       },
@@ -33,6 +33,10 @@ module.exports = (sequelize, Sequelize) => {
         allowNull: true
       },
       genero: {
+        type: Sequelize.INTEGER,
+        allowNull: true
+      },
+      image: {
         type: Sequelize.INTEGER,
         allowNull: true
       },

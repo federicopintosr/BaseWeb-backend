@@ -28,6 +28,8 @@ db.features = require("./feature.model.js")(sequelize, Sequelize);
 db.images = require("./image.model.js")(sequelize, Sequelize);
 db.products = require("./product.model.js")(sequelize, Sequelize);
 db.sizes = require("./size.model.js")(sequelize, Sequelize);
+db.genders = require("./gender.model.js")(sequelize, Sequelize);
+db.categories = require("./category.model.js")(sequelize, Sequelize);
 
 
 module.exports = db;
