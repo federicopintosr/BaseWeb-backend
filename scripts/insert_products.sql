@@ -1,5 +1,8 @@
-insert into products (codigo,cod_proveedor,cantidad,nombre,marca,descripcion_corta,descripcion_larga,categoria,genero,talle,color,precio,peso,estado,"createdAt","updatedAt",image) values
-('1','a1',5,'Remera rayada','Adidas','Remera rayada Adidas de moda','Esta es una nueva remera con rayas delicadas temporada verano 2021',1,1,2,1,1250.00,0,'V','2020-09-26 18:51:43.125','2020-09-26 18:51:43.125',1)
+
+INSERT INTO products (codigo,cod_proveedor,cantidad,nombre,marca,descripcion_corta,descripcion_larga,categoria,genero,image,talle,color,precio,peso,estado,"createdAt","updatedAt") VALUES 
+('1','a1',5,'Remera rayada','Adidas','Remera rayada Adidas de moda','Esta es una nueva remera con rayas delicadas temporada verano 2021',1,1,1,2,3,1250.0,0.0,'V','2020-09-26 18:51:43.125','2020-09-26 18:51:43.125')
+,('2','a1',5,'Remera rayada','Adidas','Remera rayada Adidas de moda','Esta es una nueva remera con rayas delicadas temporada verano 2021',1,1,1,2,5,1250.0,0.0,'V','2020-09-26 18:51:43.125','2020-09-26 18:51:43.125')
+
 
 insert into colors (nombre,"createdAt","updatedAt") values ('Rojo','2020-09-26 18:51:43.125','2020-09-26 18:51:43.125')
 insert into colors (nombre,"createdAt","updatedAt") values ('Blanco','2020-09-26 18:51:43.125','2020-09-26 18:51:43.125')
