@@ -1,5 +1,6 @@
 module.exports = app => {
   const shops = require("../controllers/shop.controller.js");
+  const products = require("../controllers/product.controller.js");
 
   var router = require("express").Router();
 
@@ -14,6 +15,9 @@ module.exports = app => {
 
   //Retrieve Menus
   router.get("/getMenu", shops.FindMenu);
+
+   //Get Product
+   router.get("/getProducts", products.GetProducts);
 
   app.use("/api/shops", router);
 };

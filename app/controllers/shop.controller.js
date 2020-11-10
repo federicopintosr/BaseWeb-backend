@@ -3,6 +3,11 @@ const Shop = db.shops;
 const Slide = db.slides;
 const Arrival = db.arrivals;
 const Menu = db.menu;
+const Color = db.colors;
+const Feature = db.features;
+const Image = db.images;
+const Product = db.products;
+const Size = db.sizes;
 const Op = db.Sequelize.Op;
 
 
@@ -83,3 +88,4 @@ exports.FindArrivals = (req, res) => {
       });
     });
 };
+

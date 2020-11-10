@@ -9,43 +9,21 @@ const Slide = db.slides;
 const Op = db.Sequelize.Op;
 
 
-exports.FindMenu = (req, res) => {
-    const name = req.query.name;
+exports.GetProducts = async (req, res) => {
+    // get the beginning of the current month
+    let products;
   
-    Menu.findAll({
-      where: {name: name, status : 'V'}, 
-      attributes: ['id','description','url','position','father','finish'],
-      order: [['position', 'ASC']],
-      })
-      .then(data => {
-        res.send(data);
-      })
-      .catch(err => {
-        res.status(500).send({
-          message:
-            err.message || "Some error occurred while retrieving tutorials."
-        });
-      });
-  };
-
+    // Use raw SQL queries to select all cars which belongs to the user
+    products = await db.sequelize.query('select p.codigo as "Codigo Producto" , p.nombre as "Nombre Producto", p.marca as "Marca", p.descripcion_corta as "Corta", p.descripcion_larga as "Larga", c.nombre as "Categoria", g.nombre as "Genero", s.nombre as "Talle", p.precio as "Precio", p.peso as "Peso", co.nombre as "Color", i.imagen as "Imagen" from products p , categories c, images i, sizes s, colors co, genders g where p.categoria = c.id and p.talle = s.id and p.color = co.id and p.image = i.id and p.genero = g.id and p.talle = s.id', {
+      //replacements: {id: req.user.id},
+      type: db.sequelize.QueryTypes.SELECT
+    });
   
-
-  // Retrieve all Shop from the database.
-exports.findAllProduct = (req, res) => {
-    //const name = req.query.name;
-  
-    Product.findAll({
-        where: {name: name, status : 'V'}, 
-        attributes: ['id','description','url','position','father','finish'],
-        order: [['position', 'ASC']],
-        })
-        .then(data => {
-          res.send(data);
-        })
-        .catch(err => {
-          res.status(500).send({
-            message:
-              err.message || "Some error occurred while retrieving tutorials."
-          });
-        });
+    const data = {
+      productos: products
     };
+  
+    return res.status(200).json(data)
+     
+  }
+
