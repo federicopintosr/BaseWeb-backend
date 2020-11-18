@@ -10,7 +10,7 @@ module.exports = (sequelize, Sequelize) => {
         type: Sequelize.STRING
       },
       product_id: {
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
       price: {
         type: Sequelize.DOUBLE
