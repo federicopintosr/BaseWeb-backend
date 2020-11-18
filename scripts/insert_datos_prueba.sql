@@ -6,14 +6,14 @@ insert into slides values (4,4,'HOME','Slide 4','../../assets/pages/img/shop-sli
 insert into slides values (5,5,'HOME','Slide 4','../../assets/pages/img/shop-slider/slide4/bg.jpg','V',now(),now());
 
 --Para Nuevos Ingresos
-insert into arrivals values (1,1,'HOME','VESTIDO AZUL','GARFAS1231%BLM',235.56,'../../assets/pages/img/products/model1.jpg','V',now(),now());
-insert into arrivals values (2,2,'HOME','ROPA DE TRABAJO','GARFAS1232%NEL',456.45,'../../assets/pages/img/products/model2.jpg','V',now(),now());
-insert into arrivals values (3,3,'HOME','CHAQUETA NEGRA','GARFAS1233%ROS',457.44,'../../assets/pages/img/products/model3.jpg','V',now(),now());
-insert into arrivals values (4,4,'HOME','SHORT AZUL','GARFAS1234%ROXS',297.47,'../../assets/pages/img/products/model4.jpg','V',now(),now());
-insert into arrivals values (5,5,'HOME','VESTIDO MULTICOLOR','GARFAS1235%AZL',786.45,'../../assets/pages/img/products/model5.jpg','V',now(),now());
-insert into arrivals values (6,6,'HOME','REMERA ROSADA','GARFAS1236%AZLM',986.98,'../../assets/pages/img/products/model6.jpg','V',now(),now());
-insert into arrivals values (7,7,'HOME','BLUSA AMARILLA','GARFAS1237%ROXS',999.99,'../../assets/pages/img/products/model7.jpg','V',now(),now());
-insert into arrivals values (8,8,'HOME','REMERA VIOLETA','GARFAS1238%ROM',123.37,'../../assets/pages/img/products/p1.jpg','V',now(),now());
+insert into arrivals values (1,1,'HOME','VESTIDO AZUL','GARFAS1231BLM',235.56,'../../assets/pages/img/products/model1.jpg','V',now(),now());
+insert into arrivals values (2,2,'HOME','ROPA DE TRABAJO','GARFAS1232NEL',456.45,'../../assets/pages/img/products/model2.jpg','V',now(),now());
+insert into arrivals values (3,3,'HOME','CHAQUETA NEGRA','GARFAS1233ROS',457.44,'../../assets/pages/img/products/model3.jpg','V',now(),now());
+insert into arrivals values (4,4,'HOME','SHORT AZUL','GARFAS1234ROXS',297.47,'../../assets/pages/img/products/model4.jpg','V',now(),now());
+insert into arrivals values (5,5,'HOME','VESTIDO MULTICOLOR','GARFAS1235AZL',786.45,'../../assets/pages/img/products/model5.jpg','V',now(),now());
+insert into arrivals values (6,6,'HOME','REMERA ROSADA','GARFAS1236AZLM',986.98,'../../assets/pages/img/products/model6.jpg','V',now(),now());
+insert into arrivals values (7,7,'HOME','BLUSA AMARILLA','GARFAS1237ROXS',999.99,'../../assets/pages/img/products/model7.jpg','V',now(),now());
+insert into arrivals values (8,8,'HOME','REMERA VIOLETA','GARFAS1238ROM',123.37,'../../assets/pages/img/products/p1.jpg','V',now(),now());
 
 --Para BRAND CAROUSEL
 insert into slides values (5,1,'BRAND','canon','../../assets/pages/img/brands/canon.jpg','V',now(),now());
