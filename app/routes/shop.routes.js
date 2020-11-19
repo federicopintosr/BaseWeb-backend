@@ -19,5 +19,14 @@ module.exports = app => {
    //Get Product
    router.get("/getProducts", products.GetProducts);
 
+   //Retorna productos segun codigo general
+   router.get("/getProductsByCode", products.GetProductCode);
+
+   //Retorna stock y precio de un producto especifico
+   router.get("/getStockByCode", products.GetStockByCode);
+
+   //Retorna todos los productos que sean resultado de la busqueda
+   router.get("/getProductBySearch", products.GetProductBySearch);
+   
   app.use("/api/shops", router);
 };
